@@ -1,6 +1,6 @@
 # OBJ Reader
 
-This is a C++ project that uses OpenGL to display .obj files. The program allows the user to load .obj files, display them on the screen, and interact with them through basic animations. This project is part of the Computer Graphics course.
+This is a C++ project that uses OpenGL to display .obj files. The program allows the user to load .obj files, display them on the screen, and interact with them through basic animations. This project is part of a Computer Graphics course.
 
 ## Stage 1: Load .obj Files
 
