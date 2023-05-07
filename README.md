@@ -1,5 +1,7 @@
 # OBJ Reader
 
+This is a C++ project that uses OpenGL to display .obj files. The program allows the user to load .obj files, display them on the screen, and interact with them through basic animations. This project is part of the Computer Graphics course.
+
 ## Stage 1: Load .obj Files
 
 The first stage of the project focused on implementing the file loading functionality. The program was designed to open .obj files and parse the vertex and face data to display the object. The object is stored in a class that contains a vector of vertices and edges. To display the object, the program utilizes OpenGL, specifically the **glBegin()** and **glEnd()** functions to create triangles based on the face data. At this stage, the program only displays the object with a solid color
