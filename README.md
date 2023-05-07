@@ -2,15 +2,11 @@
 
 This is a simple .obj reader written in C++ using OpenGL. The program reads .obj files and renders them on the screen in color, without textures or shadows.
 
-![Model loaded screenshot](OBJ_Reader\img\Draong_preview.png)
+![Model loaded screenshot](OBJ_Reader\img\dragon_preview.png)
 
 ## Animations
 
-The program supports basic animations such as rotation and bezier curve. Here's a screenshot of the program with rotation animation applied:
-
-![Rotation animation screenshot](rotation_animation.png)
-
-And here's an animated GIF of the rotation animation in action:
+The program supports basic animations such as rotation and bezier curve. Here's an animated GIF of the rotation animation in action:
 
 ![Rotation animation](OBJ_Reader\img\pingpong.gif)
 
