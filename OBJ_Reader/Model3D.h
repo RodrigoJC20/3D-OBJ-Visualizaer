@@ -38,6 +38,8 @@ public:
 
 	void clear();
 
+	void CalculateNormals();
+
 private:
 	std::vector<Vertex> vertices;
 	std::vector<Face> faces;

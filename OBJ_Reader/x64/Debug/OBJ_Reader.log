@@ -1,8 +1,9 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OBJ_Reader.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Main.cpp
-C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ_Reader\OBJ_Reader\Matrices.h(82,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ_Reader\OBJ_Reader\Matrices.h(83,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ_Reader\OBJ_Reader\Matrices.h(84,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ_Reader\OBJ_Reader\Main.cpp(18,35): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ_Reader\OBJ_Reader\Main.cpp(67,12): warning C4305: '+=': truncation from 'double' to 'float'
-  OBJ_Reader.vcxproj -> C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ_Reader\x64\Debug\OBJ-Reader.exe
+C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ-Reader\OBJ_Reader\Matrices.h(104,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ-Reader\OBJ_Reader\Matrices.h(105,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ-Reader\OBJ_Reader\Matrices.h(106,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ-Reader\OBJ_Reader\Matrices.h(122,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ-Reader\OBJ_Reader\Main.cpp(71,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ-Reader\OBJ_Reader\Main.cpp(182,12): warning C4305: '+=': truncation from 'double' to 'float'
+  OBJ_Reader.vcxproj -> C:\Users\rodri\OneDrive\Documents\Graficacion\OBJ-Reader\x64\Debug\OBJ-Reader.exe

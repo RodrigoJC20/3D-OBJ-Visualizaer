@@ -87,7 +87,7 @@ vector<vector<float>> RyMatrix(float rotation) {
 	return yMatrix;
 }
 
-vector<vector<float>> RMatrix(float rotation) {
+vector<vector<float>> RzMatrix(float rotation) {
 	vector<vector<float>> zMatrix = {
 		{ cos(rotation), -sin(rotation), 0.0, 0.0 },
 		{ sin(rotation), cos(rotation), 0.0, 0.0 },
@@ -111,4 +111,14 @@ void Bezier(Model3D& object, float t, Vertex v[4]) {
 		Vertex t = MM4x4_4x1(TMatrix(translation), v);
 		v.SetValues(t.GetX(), t.GetY(), t.GetZ());
 	}
+}
+
+float DotProdutc(Vertex v1, Vertex v2) {
+	return (v1.GetX() * v2.GetX()) + (v1.GetY() * v2.GetY()) + (v1.GetZ() * v2.GetZ());
+}
+
+
+Vertex Normalize(Vertex v) {
+	float magnitude = sqrt(pow(v.GetX(), 2) + pow(v.GetY(), 2) + pow(v.GetZ(), 2));
+	return Vertex(v.GetX() / magnitude, v.GetY() / magnitude, v.GetZ() / magnitude);
 }

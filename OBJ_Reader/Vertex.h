@@ -19,6 +19,10 @@ public:
 
 	void SetValues(float x, float y, float z);
 
+	Vertex operator-(const Vertex& other) const {
+		return Vertex(x - other.x, y - other.y, z - other.z);
+	}
+
 private:
 	float x, y, z, w;
 };

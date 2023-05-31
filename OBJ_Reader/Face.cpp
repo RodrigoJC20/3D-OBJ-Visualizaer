@@ -25,3 +25,7 @@ void Face::AddVertices(int a, int b, int c, int d) {
 	this->verticesIndexes.emplace_back(c);
 	this->verticesIndexes.emplace_back(d);
 }
+
+void Face::UpdateNormal(Vector3& a, Vector3& b) {
+	this->normal = b.cross(a).normalize();
+}
